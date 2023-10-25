@@ -128,3 +128,26 @@ section {
   margin-top:50vh;
   padding-bottom: 55vh;
 }
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-text {
+        width: 100%;
+        height: auto;
+    }
+
+    .image {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .text-wrapper {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
